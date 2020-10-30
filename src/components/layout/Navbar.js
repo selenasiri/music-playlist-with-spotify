@@ -9,12 +9,10 @@ const Navbar = () => {
           <i className="fas fa-microphone"></i> ArtistConnector
         </Link>
       </h1>
-
       <ul>
         <li>
           <Link to="/opera">Opera</Link>
         </li>
-
         <li>
           <Link to="/pop">Pop</Link>
         </li>
