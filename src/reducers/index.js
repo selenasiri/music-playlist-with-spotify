@@ -1,8 +1,6 @@
 import { combineReducers } from 'redux';
-import artistReducer from './artistReducer'
+import artistReducer from './artistReducer';
 
-const rootReducer = combineReducers({
+export default combineReducers({
   artist: artistReducer
-})
-
-export default rootReducer
+});
