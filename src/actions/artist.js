@@ -2,7 +2,6 @@ import axios from 'axios';
 import {
   GET_ARTIST,
   ARTIST_ERROR,
-
   PLAY_TRACK,
   TOGGLE_PLAY,
   RESET_AUDIO
@@ -29,7 +28,6 @@ export const resetAudio = () => {
 
 // https://spotify-api-wrapper.appspot.com/artist/Maria Callas
 // https://spotify-api-wrapper.appspot.com/artist/0bjdfjE8XbLa2Odstu6E1E/top-tracks
-
 export const getArtist = (artistName) => async (dispatch) => {
   resetAudio()
   
