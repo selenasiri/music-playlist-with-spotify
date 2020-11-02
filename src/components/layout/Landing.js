@@ -1,15 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../assets/video.mp4'
 
 const Landing = () => {
   return (
     <section className="landing">
       <div className="dark-overlay">
         <div className="landing-inner">
-          <h1 className="x-large">Developer Connector</h1>
+          <h1 className="x-large">Opera & Pop Playlists</h1>
+          
+          <video autoplay loop muted>
+            <source src="video.mp4" type="video/mp4"></source>
+          </video>
           <p className="lead">
-            Create a developer profile/portfolio, share posts and get help from
-            other developers!
+            Select a genre
           </p>
           <div className="buttons">
             <Link to="/opera" className="btn btn-primary">
