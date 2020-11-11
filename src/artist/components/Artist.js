@@ -8,10 +8,7 @@ const Artist = () => {
   const { imageUrl, name, followers, genres } = artist;
 
   return (
-    <div>
-      <h3>{name}</h3>
-      <p>{followers.total} followers</p>
-      <p>{genres.join(', ')}</p>
+    <div className="artist">
       <img
         src={imageUrl}
         alt="artist-profile"
@@ -22,6 +19,9 @@ const Artist = () => {
           objectFit: 'cover'
         }}
       />
+      <h3>{name}</h3>
+      <p>{followers.total} followers</p>
+      <p>{genres.join(', ')}</p>
     </div>
   );
 };

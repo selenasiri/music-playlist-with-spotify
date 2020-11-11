@@ -1,3 +1,9 @@
+/* artist center*/
+.artist {
+  display: flex;
+  align-items: center;
+}
+
 /* Landing Page - Bootstrap css: https://startbootstrap.com/snippets/video-header */
 
 header {
@@ -26,7 +32,7 @@ header video {
 
 header .container {
   margin-right: 90px;
-  margin-top: 15%;
+  margin-top: 22%;
   position: relative;
   z-index: 2;
 }
