@@ -29,6 +29,7 @@ header .container {
 }
 
 header .overlay {
+  margin-top: 60px;
   position: absolute;
   top: 0;
   left: 0;
@@ -51,6 +52,8 @@ header .overlay {
 
 /* btns and description css */
 .genre {
+  /* display: flex; */
+  font-size: medium;
   align-items: center;
 }
 
