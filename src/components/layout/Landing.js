@@ -1,19 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../assets/video.mp4'
+import Video from '../assets/video.mp4'
 
 const Landing = () => {
   return (
     <section className="landing">
       <div className="dark-overlay">
         <div className="landing-inner">
-          <h1 className="x-large">Opera & Pop Playlists</h1>
+          <h1 className="x-large">Start Listening Now</h1>
           
-          <video autoplay loop muted>
-            <source src="video.mp4" type="video/mp4"></source>
+          {/* { false ? (<img src='' />) : ( */}
+           <video className="video" autoplay loop muted >
+            <source src={Video} type="video/mp4" />
+           Your browser does not support the video tag.
           </video>
+          {/* )} */}
+         
           <p className="lead">
-            Select a genre
+            Choose a genre 
           </p>
           <div className="buttons">
             <Link to="/opera" className="btn btn-primary">

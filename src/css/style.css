@@ -332,9 +332,14 @@ button {
 
 /* Landing Page */
 .landing {
-  /* position: relative; */
-  background: url('../assets/spotify-background.mp4');
-  /* height: 100vh; */
+  size: small;
+  position: center;
+}
+
+.video {
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .landing-inner {
