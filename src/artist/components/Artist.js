@@ -19,8 +19,8 @@ const Artist = () => {
           objectFit: 'cover'
         }}
       />
-      <h3>{name}</h3>
-      <p>{followers.total} followers</p>
+      <h3>{name}: </h3>
+      <p>{followers.total} followers * </p>
       <p>{genres.join(', ')}</p>
     </div>
   );
