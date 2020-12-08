@@ -26,3 +26,7 @@ ENTRYPOINT ["nginx", "-g", "daemon off;"]
 
 # docker build -t yinglu91/artist:1.0 .
 # docker login -u "selenasiri"
+# docker push selenasiri/artist:1.0
+# docker run --rm -it -p 8080:80 selenasiri/artist:1.0
+
+# Navigate to http://localhost:8080, and you should now see our default app!
