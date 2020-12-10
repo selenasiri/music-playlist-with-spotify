@@ -24,7 +24,7 @@ COPY --from=builder /app/build .
 # Containers run nginx with global directives an daemon off
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 
-# docker build -t yinglu91/artist:1.0 .
+# docker build -t selenasiri/artist:1.0 .
 # docker login -u "selenasiri"
 # docker push selenasiri/artist:1.0
 # docker run --rm -it -p 8080:80 selenasiri/artist:1.0
